@@ -1,0 +1,33 @@
+
+body{
+	background-image: url("images/backpic.gif");
+	-webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(50%);
+}
+
+
+
+img{
+	vertical-align: middle;
+	width: 100%;
+}
+
+h2 {
+	text-align: center;
+}
+ pre {
+ 	text-align: left;
+ 	color: ;
+ 	width: 100%;
+ }
+
+ footer {
+	 float-bo
+	border: 1px solid gray;
+	padding: 1em;
+	color: black;
+	background-color: powderblue;
+	clear: left;
+	text-align: center;
+}
+
