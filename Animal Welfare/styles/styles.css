@@ -1,0 +1,176 @@
+/* Body */
+
+body{
+	background-color: gray;
+	background-repeat: repeat;
+	background-position: center;
+	background-image: stretch;
+	background-image: url(../images/wal.jpg);
+	
+}
+
+.image{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 200px;
+}
+.image1{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 200px;
+}
+
+.cover{
+	width: 100%;
+  	object-fit: cover;
+}
+h1{
+
+}
+h2{
+	text-align: center;
+	color: red;
+	font-size: 50px;
+
+}
+
+
+#header{
+	color: pink;
+}
+
+#header2{
+	color: blue;
+	text-align: center;
+	font-size: 30px;
+}
+#header3{
+	color: pink;
+	text-align: center;
+	font-size: 30px;
+}
+
+#header4{
+	color: pink;
+}
+
+.cell{
+	border: none;
+	display: table-cell;
+	padding: 3px 10px;
+	font-size: 20px;
+
+}
+#paragraph1{
+	text-align: center;
+}
+
+
+/* Div */
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: none;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+
+
+#tab{
+	display:inline-block; 
+    margin-left: 40px;
+}
+#tab1{
+	display:inline-block; 
+    margin-left: 80px;
+}
+#para{
+	margin: 5px 0;
+	display:inline-block; 
+    
+}
+.para{
+	margin: 5px 0;
+	display:inline-block; 
+    
+}
+.tab{
+	display:inline-block; 
+    margin-left: 40px;
+}
+
+.table{
+	margin-left: 40px;
+}
+
+.tb1{
+	margin-left: 40px;
+}
+.cel{
+	margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+#footer{
+	clear: both;
+	font-size: 11px;
+	position:relative;
+	bottom:0px;
+	width:100%;
+	height:60px; 
+}
+#footer1{
+	clear: both;
+	font-size: 11px;
+	position:relative;
+	bottom:0px;
+	width:100%;
+	height:60px; 
+	text-align: center;
+}
+#foot{
+	margin: 5px 0;
+}
+#foot1{
+	margin: 5px 0;
+}
+#foot2{
+	margin: 5px 0;
+}
+#foot3{
+	margin: 5px 0;
+}
+#foot4{
+	margin: 5px 0;
+}
