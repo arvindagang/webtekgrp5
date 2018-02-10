@@ -5,15 +5,76 @@ body{
 	background-size: 100% 100%;
 }
 
+nav ul {
+    top: 0;
+    background-color: rgba(130,130,130,0.5);
+    position: fixed;
+    height: 40px;
+    width: 1500px;
+    margin: -10px;
+    transition: 1s;
+}
+nav ul:hover:not(.active) {
+    background-color: #111;
+    transition: 1s;
+}
+nav li {
+    float: left;
+}
+nav li a:hover {
+    display: block;
+    color:black;
+    background-color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+nav li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
 header{
 	background-color: lightblue;
 	text-align: center;
 	margin: 10px;
-	padding: 5px;
+	padding: 15px;
 	opacity: 0.5;
 }
 
-nav ul li{
-	display: inline;
-	margin: 5px;
+body {
+    font-family: Verdana,sans-serif;
+    font-size: 0.9em;
+}
+
+header, footer {
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+section {
+    margin: 5px;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+article  {
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    
+}
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
 }
