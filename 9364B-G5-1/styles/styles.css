@@ -1,6 +1,6 @@
 body{
 	background-image: url("images/background1.jpg");
-	background-repeat; no-repeat;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
 }
@@ -81,4 +81,20 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 5px;
+}
+
+/* GALLERY PAGE */
+.projectpics {
+	padding: 2px;
+    background-color: black;
+    transition: transform .2s;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+	
+}
+.projectpics:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.75);
 }
