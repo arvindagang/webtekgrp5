@@ -32,7 +32,7 @@ nav li a:hover {
 }
 
 nav li a {
-    width: 133px;
+    width: 180px;
     white-space: nowrap; 
     overflow: hidden;
     text-overflow: ellipsis;
