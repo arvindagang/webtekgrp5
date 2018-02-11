@@ -1,18 +1,17 @@
 body{
-	background-image: url("images/background2.jpg");
-	background-repeat: no-repeat;
+	background-image: url("images/background1.jpg");
+	background-repeat; no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
 }
 
 nav ul {
-    display: inline-block;
     top: 0;
     background-color: rgba(130,130,130,0.5);
     position: fixed;
     height: 40px;
-    width: 3000px;
-    margin: -7px;
+    width: 1500px;
+    margin: -10px;
     transition: 1s;
 }
 nav ul:hover:not(.active) {
@@ -23,8 +22,9 @@ nav li {
     float: left;
 }
 nav li a:hover {
+    display: block;
     color:black;
-    background-color: lightgray;
+    background-color: white;
     text-align: center;
     padding: 10px 14px;
     text-decoration: none;
@@ -32,12 +32,7 @@ nav li a:hover {
 }
 
 nav li a {
-    font-family: "bookman old style";
-    width: 180px;
-    white-space: nowrap; 
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: inline-block;
+    display: block;
     color:white;
     text-align: center;
     padding: 10px 14px;
@@ -66,16 +61,14 @@ header, footer {
 section {
     margin: 5px;
     padding: 10px;
-    background: rgba(235, 203, 203, .80);
+    background-color: lightgray;
 }
 
 article  {
     margin: 5px;
     padding: 10px;
-    background: rgba(25, 25, 25, .60);
-	color: white;
-	font-family: "Courier New";
- 
+    background-color: white;
+    
 }
 nav ul {
     padding: 0;
@@ -84,20 +77,4 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 5px;
-}
-
-/* GALLERY PAGE */
-.projectpics {
-	padding: 2px;
-    background-color: black;
-    transition: transform .2s;
-    width: 500px;
-    height: 300px;
-    margin: 0 auto;
-	
-}
-.projectpics:hover{
-	-ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.75);
 }
