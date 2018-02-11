@@ -6,12 +6,13 @@ body{
 }
 
 nav ul {
+    display: inline-block;
     top: 0;
     background-color: rgba(130,130,130,0.5);
     position: fixed;
     height: 40px;
-    width: 1500px;
-    margin: -10px;
+    width: 3000px;
+    margin: -7px;
     transition: 1s;
 }
 nav ul:hover:not(.active) {
@@ -22,9 +23,8 @@ nav li {
     float: left;
 }
 nav li a:hover {
-    display: block;
     color:black;
-    background-color: white;
+    background-color: lightgray;
     text-align: center;
     padding: 10px 14px;
     text-decoration: none;
@@ -32,7 +32,11 @@ nav li a:hover {
 }
 
 nav li a {
-    display: block;
+    width: 133px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
     color:white;
     text-align: center;
     padding: 10px 14px;
