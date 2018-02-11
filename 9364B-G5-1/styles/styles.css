@@ -32,6 +32,7 @@ nav li a:hover {
 }
 
 nav li a {
+    font-family: "bookman old style";
     width: 180px;
     white-space: nowrap; 
     overflow: hidden;
