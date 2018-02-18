@@ -88,11 +88,9 @@ nav ul {
     display: inline-block;
     top: 0;
     position: fixed;
-    margin: -7px;
+    /*margin: -7px;*/
+    padding: 0px 0px;
     transition: 1s;
-    height: 40px;
-    width: 3000px;
-    
 }
 nav li {
     float:  left;
@@ -100,7 +98,7 @@ nav li {
 }
 
 nav li a {
-	width: auto;
+	width: 100px;
     height: auto;
     border: 10px solid #f6f6f6;
     background: #fff;
@@ -120,7 +118,6 @@ nav li a {
 }
 
 nav li a:hover {
-    padding: 10px 14px;
     background: #f7f7f7;
     border-color: #fff;
     transform: rotate(360deg); 
