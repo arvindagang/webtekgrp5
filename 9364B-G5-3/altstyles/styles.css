@@ -220,7 +220,7 @@ p, footer {
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
 }
-ol, ul {
+ol {
 	
     animation-name: txt;
     animation-duration: 2s;
