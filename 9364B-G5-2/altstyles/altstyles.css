@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body{
 	background-image: url("images/background2.jpg");
 	background-repeat: no-repeat;
@@ -53,7 +53,6 @@ header, footer{
     to {left: 300px;}
 }
 
-=======
 * {
 	margin: 0;
 	padding: 0;
@@ -142,7 +141,7 @@ img{
 h2{
 	font-size: 30px;
 }
->>>>>>> f84a5d085f0a5bd4a7d694b01ea90d305f899422
+
 
 .sidenav{
 	top: 0;
@@ -178,9 +177,9 @@ h2{
     background: #f7f7f7;
     border-color: #fff;
     transform: rotate(360deg); 
-<<<<<<< HEAD
+
 }
-=======
+
 }
 
 
@@ -210,5 +209,3 @@ h2{
 	clear: left;
 	text-align: center;
 }
-
->>>>>>> f84a5d085f0a5bd4a7d694b01ea90d305f899422
