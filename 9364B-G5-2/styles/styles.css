@@ -5,11 +5,163 @@ body{
 	background-size: 100% 100%;
 }
 
-* {
-	margin: 0;
-	padding: 0;
-    box-sizing: border-box;
+ div a{
+    width: 180px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    color:white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
 }
+
+#header3{
+	background-color: lightblue;
+	text-align: center;
+	margin: 10px;
+	padding: 15px;
+	opacity: 0.5;
+}
+body {
+    font-family: Verdana,sans-serif;
+    font-size: 0.9em;
+}
+
+ head{
+    font-family: Verdana,sans-serif;
+    font-size: 0.9em;
+    background-color:rgba(235, 203, 203, .80);
+}
+
+p.para{
+	margin: 5px;
+    	padding: 10px;
+    	background: rgba(25, 25, 25, .60);
+	color: white;
+	font-family: "Courier New";
+	
+}
+
+#row{
+    display: inline-block;
+    top: 0;
+    background-color: rgba(130,130,130,0.5);
+    position: relative;
+    height: 40px;
+    width: px;
+    margin: 150px;
+    left: -148px;
+    transition: 1s;
+    text-align:center;
+}
+.cell:hover:not(.active) {
+    background-color: #111;
+    transition: 1s;
+}
+.divTableCell, .divTableHead {
+    display: inline-block;
+    top: 0;
+    background-color: ;
+    position: relative;
+    height: 30px;
+    width: 300px;
+    margin: 20px;
+    left: 2px;
+    transition: 1s;
+}
+.divTableCell:hover:not(.active) {
+    background-color: #111;
+    transition: 1s;
+}
+
+nav ul {
+    display: inline-block;
+    top: 0;
+    background-color: rgba(130,130,130,0.5);
+    position: fixed;
+    height: 40px;
+    width: 3000px;
+    margin: -7px;
+    transition: 1s;
+}
+nav ul:hover:not(.active) {
+    background-color: #111;
+    transition: 1s;
+}
+nav li {
+    float: left;
+}
+nav li a:hover {
+    color:black;
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+nav li a {
+    width: 180px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    color:white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+header{
+	background-color: lightblue;
+	text-align: center;
+	margin: 10px;
+	padding: 15px;
+	opacity: 0.5;
+}
+
+
+
+header, footer {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+section {
+    margin: 5px;
+    padding: 10px;
+    background: rgba(235, 203, 203, .80);
+}
+
+div.header-container1{
+	margin: 5px;
+    	padding: 10px;
+    	background: rgba(235, 203, 203, .80);
+	color: white;
+	font-family: "Courier New";
+}
+
+article  {
+    margin: 5px;
+    padding: 10px;
+    background: rgba(25, 25, 25, .60);
+	color: white;
+	font-family: "Courier New";
+ 
+}
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
+
 
 .second-header{
 	position: relative;
@@ -96,11 +248,6 @@ body{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-header{
-	color: white;
-	font-size: 40px;
-	text-align: center;
-}
 
 img{
 	vertical-align: middle;
@@ -183,19 +330,20 @@ h2{
 	
 }
 
-section {
-    margin: 5px;
-    padding: 10px;
-    background: rgba(235, 203, 203, .80);
+
+
+/* GALLERY PAGE */
+.projectpics {
+	padding: 2px;
+    background-color: black;
+    transition: transform .2s;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+	
 }
-
- footer {
-
-	padding: 1em;
-	color: white;
-	background-color: black;
-	clear: left;
-	text-align: center;
-	font-family: Verdana,sans-serif;
+.projectpics:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.75);
 }
-
