@@ -1,5 +1,5 @@
 body{
-	background-image: url("images/background2.jpg");
+	background-image: url("images/Lights.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
@@ -44,9 +44,7 @@ header, #RAHeading, #header3 {
 	padding: 15px;
 	opacity: 0.5;
     position: relative;
-    animation: animate 5s linear infinite;
-    animation-direction: alternate-reverse;
-    
+    animation: animate 15s linear infinite;
 }
 footer {
     animation-name: bg;
@@ -56,9 +54,9 @@ footer {
     text-align: center;
 }
 @keyframes animate {
-    from {left: 0%;}
+    from {left: -100%;}
     to {left: 100%;}
-    animation-direction: alternate-reverse;
+  
 }
 .projectpics {
     padding: 2px;

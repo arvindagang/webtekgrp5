@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 body{
-	background-image: url("images/background2.jpg");
+	background-image: url("Image/Lights.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
@@ -22,8 +21,8 @@ section {
     animation-direction: alternate-reverse;
 }
 @keyframes bg {
-    0%   {background-color: gray;}
-    100% {background-color: lightskyblue;}
+    0%   {background-color: sandybrown;}
+    100% {background-color: beige;}
 }
 p {
     animation-name: txt;
@@ -32,8 +31,8 @@ p {
     animation-direction: alternate-reverse;
 }
 @keyframes txt {
-    0%   {background-color: lightskyblue;}
-    100% {background-color: gray;}
+    0%   {background-color: beige;}
+    100% {background-color: sandybrown;}
 }
 header, footer{
     width: 100%;
@@ -44,105 +43,15 @@ header, footer{
 	padding: 15px;
 	opacity: 0.5;
     position: relative;
-    animation: animate 5s ;
+    animation: animate 15s ;
     {animation-timing-function: ease;}
     
 }
 @keyframes animate {
-    from {left: 0px;}
-    to {left: 300px;}
+    from {left: -100%;}
+    to {left: 100%;}
 }
 
-=======
-* {
-	margin: 0;
-	padding: 0;
-    box-sizing: border-box;
-}
-.second-header{
-	position: relative;
-	max-width: 100%;
-	margin: 0 auto;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-.second-title{
-	position: absolute;
-	bottom: 0;
-	background: rgba(0, 0, 0, 0.5);
-	color: #flf1f1;
-	width: 100%;
-	padding: 20px;
-	text-align: center;
-	
-}
-
-.content-container1{
-	width: 70%;
-	float:right;
-
-	}
-
-.content-container2{
-	width:  50%;
-	float:left;
-	}
-
-.text-box-second-f{
-	text-align: right;
-	text-align: justify;
-	
-}
-.text-box-second-s{
-	text-align: right;
-	text-align: justify;
-	background-color:#ccccff;
-}
-.third-header{
-	width: 100%;
-	height: 50px;
-	background-color: #6699ff;
-		position: relative;
-	max-width: 100%;
-	margin: 0 auto;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-.third-title{
-	text-align: right;
-	
-}
-
-
-.header-container{
-	position: relative;
-	max-width: 100%;
-	margin: 0 auto;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-header{
-	color: white;
-	font-size: 40px;
-	text-align: center;
-}
-img{
-	vertical-align: middle;
-	width: 100%;
-	height: 400px;
-}
-.main-title{
-	position: absolute;
-	bottom: 0;
-	background: rgba(0, 0, 0, 0.5);
-	color: #flf1f1;
-	width: 100%;
-	padding: 20px;
-	text-align: center;
-}
-h2{
-	font-size: 30px;
-}
->>>>>>> f84a5d085f0a5bd4a7d694b01ea90d305f899422
 
 .sidenav{
 	top: 0;
@@ -178,37 +87,4 @@ h2{
     background: #f7f7f7;
     border-color: #fff;
     transform: rotate(360deg); 
-<<<<<<< HEAD
 }
-=======
-}
-
-
-
-
-.box{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.content{
-	background-color: #FA5858;
-	text-align:	center;
-}
-
-.content-one{
-	background-color: #f2f2f2;
-	text-align:	justify;
-	
-	
-}
-
- footer {
-	 
-	border: 1px solid gray;
-	padding: 1em;
-	color: black;
-	background-color: #E6E6E6;
-	clear: left;
-	text-align: center;
-}
-
->>>>>>> f84a5d085f0a5bd4a7d694b01ea90d305f899422
