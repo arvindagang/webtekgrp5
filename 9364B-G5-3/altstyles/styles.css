@@ -29,6 +29,7 @@ p {
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
+
 }
 @keyframes txt {
     0%   {background-color: beige;}
@@ -67,11 +68,11 @@ footer {
     height: 300px;
     margin: 0 auto;
 }
-#imagess: hover {
+.projectpics:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
 }
-.projectpics:hover {
+#imagess:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
 }
@@ -118,13 +119,16 @@ nav li a {
     color:black;
     text-align: center;
     padding: 25px 3px;
-    text-decoration: none;
+
+    
 }
 
 nav li a:hover {
     background: #f7f7f7;
     border-color: #fff;
-    transform: rotate(360deg); 
+    transform: rotate(360deg);
+    text-decoration: none !important; 
+    
 }
 /* Animal Welfare */
 .image{
@@ -140,14 +144,23 @@ nav li a:hover {
     height: 200px;
 }
 
+a:hover, a:link{
+    text-decoration: none !important;
+}
+
 .cell:hover{
+    text-decoration: none !important;
    background: #f7f7f7;
     border-color: #fff;
     transform: rotate(360deg);
+
+   
 }
+
 .cell{
     width: 100px;
     height: auto;
+    text-decoration: none !important;
     border: 10px solid #f6f6f6;
     background: #fff;
     margin-right: 4px;
@@ -159,15 +172,20 @@ nav li a:hover {
     overflow: hidden;
     text-overflow: ellipsis;
     display: inline-block;
-    color:black;
     text-align: center;
     padding: 25px 3px;
-    text-decoration: none;
+    
+    
 }
+    
+    
+
 div.divTableCell:hover{
    background: #f7f7f7;
     border-color: #fff;
     transform: rotate(360deg);
+       
+
 }
 div.divTableCell{
     width: 100px;
@@ -186,5 +204,6 @@ div.divTableCell{
     color:black;
     text-align: center;
     padding: 25px 3px;
-    text-decoration: none;
+    
+
 }
